@@ -56,20 +56,32 @@ header nav a:hover {
 }
 
 footer {
-    background: linear-gradient(70deg, rgb(24,24,24), rgb(25,29,29));
-    padding: 36px 0;
+    display: grid;
+    background-color: black;
+    background: fixed;
+    padding: 10px 0;
+    text-align: left;
 }
 
 footer ul {
-    display: flex;
+    display: grid;
     justify-content: center;
 
 
 }
 footer li {
-    width: 80px;
-    height: 80px;
+    color: white;
+    display: flex;
+    width: 20px;
+    height:30px;
     margin: 0 50px;
+}
+
+footer address {
+    text-align: justify;
+    color: aqua;
+    padding: 10px;
+    margin-top: auto;
 }
 
 footer img {
